@@ -1,0 +1,17 @@
+
+interface say{
+  void speak();
+}
+
+
+ class Sayable{
+
+  public static void main(String[] args){
+    say s = ()->{
+      System.out.println("speaking");    
+};
+
+s.speak();
+ 
+   }
+}
